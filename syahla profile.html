@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html> 
+<title>Syahla Profile</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.dafont.com/razing.font">
+<style> 
+body,h1,h2,h3,h4,h5 { font-family: "razing", serif; }
+body {font-size:16px}
+.w3-half img{margin-bottom:100px;margin-top:200px;opacity:100;cursor:pointer}
+.w3-half img:img/01.jpg{opacity:90} 
+</style>
+<body style="background-image:url('img/fix.jpg')">
+</body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px" style="font-family: "Comic Sans MS", cursive, sans-serif;">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Welcome<br>in my web ! </b></h3>
+  </div> 
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Syahlaamirah</a> 
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Hobi</a> 
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Friend</a> 
+    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">My Mama</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">My social media</a>
+    <a href="#pendidikan" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Pendidikan</a>
+
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Syahla's Profile</span>
+  <div class="w3-panel w3-card-4 w3-light-grey" style="width:50%">
+    <p class=" w3-large w3-serif">
+    <i class="fa fa-quote-right w3-xxlarge w3-text-red"></i><br>
+   </p>
+  </div>
+</div>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b>Syahlaamirah Web</b></h1>
+    <h1 class="w3-xxxlarge w3-text-red" style="font-family: "Comic Sans MS", cursive, sans-serif;"><b>Holla !.</b></h1>
+    <hr style="width:50px;border:5px solid red"class="w3-round">
+  </div>
+  
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="img/ooo.jpg" style="width:450px" onclick="onClick(this)" alt="Light, white and tight scandinavian design" style="align-content: center;">
+    </div>
+
+    <div class="w3-half">
+      </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <div class="w3-container" id="services" style="margin-top:150px" style="margin-bottom: 100">
+    <h1 class="w3-xxxlarge w3-text-black" ><b>Syahlaamirah.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <img src="img/01.jpg" style="width: 500px" style="margin-bottom: 150px" style="align-content: center;">
+    <p> <strong>Nama saya Syahla Nuramirah Herlanda Putri, orang biasa memanggilku Syahla, tetapi orang orang terdekat memanggilku Lala. Saya lahir di Bandung , 17 tahun lalu, Yap ! tepatnya pada tanggal 5 Desember 2000. Sekarang aku tinggal di salah satu daerah di Kota Bogor. Aku bersekolah di SMK-SMAK Bogor, salah satu sekolah berbasis Kimia.</strong</p>
+          <p><strong>Tidak ada yang spesial, saya adalah seorang anak perempuan ke 4 dari 5 bersaudara. Semua saudaraku laki-laki dan mereka semua adalah saudara yang menyengenangkan. Mari mengenalku lebih jauh !</strong>
+    </p>
+  </div>
+  
+  <!-- Designers -->
+  <div class="w3-container" id="designers" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Hobi.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Macam macam hobi yang banyak di gemari banyak orang. Menggambar adalah salah satu hobi yang saya sukai, mimpiku menjadi seorang desaigner ,maka dari itu aku gemar menggambar, hobiku yang lain adalah menonton film, seperti anak remaja lainnya aku menyukai drama korea. Jalan-jalan ! Yap, itu menyenangkan dan merupakan salah satu hobiku juga, dengan jalan jalan setidaknya kita bisa merefresh otak ita setelah seminggu belajar disekolah.
+    </p>
+    <p><b>My Hobi</b>:</p>
+  </div>
+
+  <!-- The Team -->
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-red">
+        <img src="img/mimpi.jpg" alt="Menggambar dan menjadi seorang desaigner" style="width:350px">
+        <div class="w3-container">
+          <h3>Menggambar</h3>
+          <p class="w3-opacity">Menjadi seorang desaigner</p>
+          <p></p>Bagiku menggambar adalah salah satu hobi yang menyenangkan. Aku memang tidak pandai menggambar ,tetapi setidaknya dengan menggambar aku bisa menyalurkan hobiku. Aku suka menggambar apapun yang aku bisa.
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-red">
+       <img src="img/korea.jpg" alt="Menonton drama Korea" style="width: 100%">
+        <div class="w3-container">
+          <h3>Menonton Drama Korea</h3>
+          <p class="w3-opacity"></p>
+          <p>Menonton film adala hobiku, salah satu yang aku sukai yaitu drama korea. Mengapa harus drama korea? Menurutku, film drama tidak membosankan, episode yang ditampilkan juga tidak terlalu lama, dan itu membuat drama korea menjadi tidak membosankan.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-red">
+        <img src="img/liburan2.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>Travelling</h3>
+          <p class="w3-opacity"></p>
+          <p>Bukan berarti travelling yang mewah ataupun keluar negri, liburan bersama teman ataupun keluarga itu sudah sangat menyenangkan..</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Packages / Pricing Tables -->
+  <div class="w3-container" id="packages" style="margin-top:100px">
+    <h1 class="w3-xxxlarge w3-text-black"><b>My Friend.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p><strong>"Menjadi kaya raya adalah hal yang baik, begitu pula dengan menjadi kuat, tetapi hal yang lebih baik adalah dicintai banyak teman." <strong>Hari hariku menyenangkan berkat mereka. Mereka bertiga yang selalu membuatku tertawa dengan lawakan konyolnya, mereka sesama anggota Pawaska yang saling menguatkan satu sama lain, mereka teman-teman kuyang selalu menemani dari dulu hingga sekarang. Mereka adalah sahabatku !.</p>
+      <img src="img/sel.jpg" style="width: 350px">
+      <img src="img/pawaska.jpg" style="width: 350px" style="align-content: center;">
+      <img src="img/ber4.jpg" style="width: 250px" style="align-content: center;">
+  </div>
+
+
+<div class="w3-container" id="packages" style="margin-top:100px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>My Mama.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+     <p style="text-align: center;" style="margin-bottom: 300px" style="font-size: 28px">
+   Dialah mama, seorang wanita hebat yang selalu ada untukku, seorang mama, sahabat, dan my human diary. 
+   Seorang wanita cantik dan penasehat yang handal. Bagiku dia adalah segalanya .<strong> She is my super hero !</strong> 
+     <img src="img/sm mm.jpg" style="width: 500px" style="margin-bottom: 150px">
+ </p>
+  </div
+
+
+</div>
+          <!-- Contact -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Motto Hidup.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <div class="w3-panel w3-card-4 w3-light-red" style="width:50%">
+    <p class=" w3-large w3-serif">
+    <i class="fa fa-quote-right w3-xxlarge w3-text-red"> </i><br>
+    Hidup itu singkat ! Apa salahnya kita bersenang senang?.</p>
+  </div>
+</div>
+
+    <p></p>
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <img src="img/ig.png" style="width:89px"> 
+        <label style="font-size: 38px">syahlaamirah</label>
+        
+  
+      <div class="w3-section">
+        <img src="img/gm.png" style="width: 89px">
+        <label style="font-size: 38px">syahlaamirah@gmail.com</label>
+        
+  </div>
+
+</body>
+</html>
